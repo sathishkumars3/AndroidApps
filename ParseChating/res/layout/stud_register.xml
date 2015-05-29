@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5252"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="Content Provider Example"
+        android:textColor="#EDE7F6"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_back"
+        android:hint="Enter Sid"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_back"
+        android:hint="Enter Sname"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/sage"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_back"
+        android:hint="Enter Sage"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/select_button"
+            android:text="Submit"
+            android:textColor="@drawable/text_color" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/select_button"
+            android:text="Cancel"
+            android:textColor="@drawable/text_color" />
+    </TableRow>
+
+</LinearLayout>
