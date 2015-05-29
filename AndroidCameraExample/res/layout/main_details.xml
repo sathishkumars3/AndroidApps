@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.javacodegeeks.androidcameraexample.VideoCapture
+        android:layout_width="320dp"
+        android:layout_height="480dp"
+        android:id="@+id/surfaceView" 
+        />
+    <Button android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Start"
+        android:id="@+id/start"
+        android:layout_marginTop="10dp"
+        />
+    <Button android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Start"
+        android:id="@+id/stop"
+          android:layout_marginTop="50dp"
+        />
+    
+
+</FrameLayout>
